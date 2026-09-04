@@ -1,0 +1,66 @@
+# Build artifacts
+/build/
+/dist/
+*.o
+*.a
+*.so
+*.elf
+*.dll
+
+# Compiler outputs
+aethelc
+*.ll
+
+# Object files
+*.obj
+*.o
+
+# Debug files
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+*.out
+*.bin
+
+# ISO images
+*.iso
+
+# QEMU outputs
+*.qcow2
+*.img
+*.rom
+
+# Dependencies (if using package managers)
+/vendor/
+/node_modules/
+
+# Generated documentation
+/doc/html/
+/doc/latex/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environment variables
+.env
+.env.local
+
+# OS specific
+.DS_Store
+Thumbs.db
